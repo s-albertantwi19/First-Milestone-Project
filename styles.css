@@ -14,18 +14,21 @@ header ~ div {
 }
 
 .navbar{
-    background-color:#e9c46a;
+    float: none;
     padding: 1em;
-    color:beige;
     text-decoration: underline;
     position: relative;
-    width:100%;
+    width:max-content;
+    text-align: center;
+    margin: auto;
 
 }
 
 nav> a{
-    color:black;
-    text-align: center;
+    color:#e9c46a;
+    font-weight: bold;
+    font-size: 1.3em;
+    
 }
 nav > a:hover{
     color:bisque ;
