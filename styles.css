@@ -3,4 +3,30 @@
 header{
     font-family: 'Baumans';
     font-size: 33px;
+
+}
+
+header ~ div {
+    background-color: #2a9d8f;
+    
+}
+
+.navbar{
+    background-color:azure;
+    width: 100%;
+}
+
+body{
+    background-color:#2a9d8f ;
+}
+
+footer{
+    background-color:#e9c46a;
+    font-family: 'Baumans'
+    padding: 2em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
