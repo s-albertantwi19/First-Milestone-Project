@@ -10,17 +10,19 @@ header{
 
 header ~ div {
     background-color: #2a9d8f;
-    
 }
 
 .navbar{
     float: none;
-    padding: 1em;
+    padding: none;
     text-decoration: underline;
     position: relative;
     width:max-content;
     text-align: center;
-    margin: auto;
+    margin:auto;
+    font-family: 'Baumans';
+    display: flex;
+    gap: 1rem;
 
 }
 
@@ -28,14 +30,22 @@ nav> a{
     color:#e9c46a;
     font-weight: bold;
     font-size: 1.3em;
-    
+    margin:auto;
+               
 }
 nav > a:hover{
-    color:bisque ;
+    color:bisque;
 }
 
 body{
     background-color:#2a9d8f ;
+}
+
+.photo-gallery-banner{
+    padding: 2em;
+    flex: 0 250px;
+    height: 250px;
+
 }
 
 footer{
@@ -47,4 +57,12 @@ footer{
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+.one-third{
+    width: 33.33%
+}
+
+.img_uno{
+
 }
