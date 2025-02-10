@@ -3,6 +3,8 @@
 header{
     font-family: 'Baumans';
     font-size: 33px;
+    text-align: center;
+    color:#e9c46a;
 
 }
 
@@ -12,8 +14,21 @@ header ~ div {
 }
 
 .navbar{
-    background-color:azure;
-    width: 100%;
+    background-color:#e9c46a;
+    padding: 1em;
+    color:beige;
+    text-decoration: underline;
+    position: relative;
+    width:100%;
+
+}
+
+nav> a{
+    color:black;
+    text-align: center;
+}
+nav > a:hover{
+    color:bisque ;
 }
 
 body{
