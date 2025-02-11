@@ -48,11 +48,11 @@ nav > a:hover{
       position: relative;
     }
     .navbar a {float: left;}
-    div.content {margin-left: 0;}
+    div.wholepage {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
-    .sidebar a {
+    .navbar a {
       text-align: center;
       float: none;
     }
@@ -94,16 +94,7 @@ body{
 
 }
 
-footer{
-    background-color:#e9c46a;
-    font-family: 'Baumans';
-    padding: 2em;
-	text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
+
 
 .gallery-banner{
     display:flex;
@@ -120,4 +111,19 @@ footer{
     .gallery-banner img {
         width:calc(100% / 3);
     }
+}
+
+.final{
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color:#e9c46a;
+    font-family: 'Baumans';
+    padding: 2em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
