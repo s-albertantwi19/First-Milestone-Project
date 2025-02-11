@@ -58,7 +58,7 @@ nav > a:hover{
     }
 }
 
-div.wholepage{
+section.wholepage{
     margin-left: 200px; /* to allow for sidebar */
     padding: 1px 16px;
     height: 100%;
