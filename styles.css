@@ -70,7 +70,7 @@ body{
     background-color:#2a9d8f ;
 }
 
-#live{
+.page-text{
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -89,7 +89,7 @@ body{
 
 footer{
     background-color:#e9c46a;
-    font-family: 'Baumans'
+    font-family: 'Baumans';
     padding: 2em;
 	text-align: center;
     width: 100%;
@@ -98,8 +98,19 @@ footer{
     right: 0;
 }
 
+.gallery-banner{
+    display:flex;
+    flex-wrap: wrap;
 
-#img_uno{
+}
 
+.gallery-banner img {
+    width: 100%;
+    padding: 1rem;
+}
 
+@media screen and (max-width:400px) {
+    .gallery-banner img {
+        width:calc(100% / 3);
+    }
 }
