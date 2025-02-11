@@ -48,7 +48,7 @@ nav > a:hover{
       position: relative;
     }
     .navbar a {float: left;}
-    div.wholepage {margin-left: 0;}
+    div.wholepage {margin-left: 200px;}
 }
 
 @media screen and (max-width: 400px) {
@@ -56,9 +56,10 @@ nav > a:hover{
       text-align: center;
       float: none;
     }
+    div.wholepage {margin-left:0;}
 }
 
-section.wholepage{
+div.wholepage{
     margin-left: 200px; /* to allow for sidebar */
     padding: 1px 16px;
     height: 100%;
@@ -80,11 +81,11 @@ body{
 
 }
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
     .page-text {
         width:30%;
     }
-}
+} */
 
 .photo-gallery-banner{
     display: grid;
@@ -107,11 +108,11 @@ body{
     padding: 1rem;
 }
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
     .gallery-banner img {
         width:calc(100% / 3);
     }
-}
+} */
 
 .final{
     margin-bottom: 200px;
