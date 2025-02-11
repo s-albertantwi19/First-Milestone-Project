@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Baumans');
 
-.header_title{
+#header_title{
     font-family: 'Baumans';
     font-size: 33px;
     text-align: center;
     color:#e9c46a;
-
-}
-
-.header_title {
     background-color: #2a9d8f;
+    padding-bottom: 20px;
+
 }
 
-#home {
+
+#header_title {
     background-image: url();
 }
 
@@ -27,14 +26,13 @@
     margin:0;
     font-family: 'Baumans';
     overflow:auto;
-    gap: 1rem;
     height: 100%;
-    background-color: #f1f1f1;
+    background-color: #e9c46a;
       
 }
 
-nav> a{
-    color:#e9c46a;
+.navbar> a{
+    color:#2a9d8f ;
     display: block;
     padding: 16px;
     text-decoration: none;
@@ -44,8 +42,42 @@ nav > a:hover{
     color:bisque;
 }
 
+@media screen and (max-width: 700px) {
+    .navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .navbar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+
+section.wholepage{
+    margin-left: 200px; /* to allow for sidebar */
+    padding: 1px 16px;
+    height: 100%;
+}
+
+
 body{
     background-color:#2a9d8f ;
+}
+
+#live{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Baumans';
+    padding-left: 200px;
+    background-color: #e9c46a;
+
 }
 
 .photo-gallery-banner{
