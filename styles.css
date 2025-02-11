@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baumans');
 
-header{
+.header_title{
     font-family: 'Baumans';
     font-size: 33px;
     text-align: center;
@@ -8,29 +8,36 @@ header{
 
 }
 
-header ~ div {
+.header_title {
     background-color: #2a9d8f;
 }
+
+#home {
+    background-image: url();
+}
+
 
 .navbar{
     float: none;
     padding: none;
     text-decoration: underline;
-    position: relative;
-    width:max-content;
+    position: fixed;
+    width:200px;
     text-align: center;
-    margin:auto;
+    margin:0;
     font-family: 'Baumans';
-    display: flex;
+    overflow:auto;
     gap: 1rem;
-
+    height: 100%;
+    background-color: #f1f1f1;
+      
 }
 
 nav> a{
     color:#e9c46a;
-    font-weight: bold;
-    font-size: 1.3em;
-    margin:auto;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
                
 }
 nav > a:hover{
@@ -43,7 +50,8 @@ body{
 
 .photo-gallery-banner{
     display: grid;
-
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
 
 }
 
@@ -58,10 +66,8 @@ footer{
     right: 0;
 }
 
-#one-third{
-    width: 33.33%
-}
 
 #img_uno{
+
 
 }
