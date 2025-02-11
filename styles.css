@@ -6,7 +6,6 @@
     text-align: center;
     color:#e9c46a;
     background-color: #2a9d8f;
-    padding-bottom: 20px;
 
 }
 
@@ -77,13 +76,21 @@ body{
     font-family: 'Baumans';
     padding-left: 200px;
     background-color: #e9c46a;
+    color: #2a9d8f;
 
+}
+
+@media screen and (max-width:400px) {
+    .page-text {
+        width:30%;
+    }
 }
 
 .photo-gallery-banner{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
+    padding-left: 200px;
 
 }
 
