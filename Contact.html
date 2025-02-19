@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Seychelles Information Page </title>
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar"> 
+        <a href="index.html"> Home </a>
+        <a href="history.html"> History </a>
+        <a href="todo.html">Places To See</a>
+        <a href=#wildlife>Wildlife</a>
+        <a href="Contact.html">Let's Stay In Touch</a>
+    </nav>
+<!-- whole page contained in a div to allow for responsive sidebar-->
+<div class="wholepage">
+    <div id="header_title">
+        <h1> Nou Ka Zwen! </h1>
+        <h6> (We Can Stay In Touch!) </h6>
+    </div>
+    <div class="page-text">
+        <form action="https://formdump.codeinstitute.net" method="POST">
+
+            <fieldset>
+                <legend>Your details</legend>
+                <div class="flex gap-20">
+                    <div>
+                        <label for="name-field" class="block-label">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <label for="email-field" class="block-label">Email</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div>
+                        <label for="age" class="block-label">Age</label>
+                        <select id="age" name="age" required>
+                            <option value="under-20">Under 20</option>
+                            <option value="20s">20-29</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-59</option>
+                            <option value="60+">60+</option>
+                        </select>
+                    </div>
+                </div>
+                
+        
+            </fieldset>
+    
+            
+            <fieldset>
+                <legend>Our products</legend>
+                <div>
+                    <label for="fav-coffee" class="block-label">What is your favourite coffee?</label>
+                    <input id="fav-coffee" list="coffees" name="fav-coffee" required>
+                    <datalist id="coffees">
+                        <option value="Latte">
+                        <option value="Americano">
+                        <option value="Cappuccino">
+                        <option value="Espresso">
+                        <option value="Flat-white">
+                    </datalist>
+                </div>
+    
+                <p>How many cups of coffee do you drink a day?</p>
+    
+                <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
+                <label for="0-2cups-radio">0 to 2 cups</label>
+    
+                <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
+                <label for="3-5cups-radio">3 to 5 cups</label>
+    
+                <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" required>
+                <label for="6-8cups-radio">6 to 8 cups</label>
+    
+                <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio" required>
+                <label for="9plus-cups-radio">9 or more cups</label>
+    
+                <p>How often do you visit Coders Coffeehouse?</p>
+    
+                <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
+                <label for="once-a-week">Once a week</label>
+    
+                <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
+                <label for="twice-a-week">Twice a week</label>
+    
+                <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
+                <label for="once-a-fortnight">Once a fortnight</label>
+    
+                <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
+                <label for="not-often">Not often</label>
+    
+                <p>Which of our coders coffeehouse snacks do you enjoy?</p>
+                <div>
+                    <input type="checkbox" id="brownies-checkbox" name="brownies">
+                    <label for="brownies-checkbox">Brownies</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cookies-checkbox" name="cookies">
+                    <label for="cookies-checkbox">Cookies</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="nachos-checkbox" name="nachos">
+                    <label for="nachos-checkbox">Nachos</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="croissants-checkbox" name="croissants">
+                    <label for="croissants-checkbox">Croissants</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scones-checkbox" name="scones">
+                    <label for="scones-checkbox">Scones</label>
+                </div>	
+            </fieldset>
+    
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="feedback" class="block-label">How can we improve your experience with us?</label>
+                <br>
+                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+            </fieldset>
+    
+            <input type="submit" class="block-label" value="Enter prize draw">
+            <input type="reset" value="Reset Form">
+    
+        </form>
+        
+    </div>
+<footer> 
+    <span>For more information, contact us on:</span>
+    <a href="www.facebook.com" target ="_blank" rel="noopener"> Facebook</a>
+</footer>
+</div>
+</body>
+</html>
