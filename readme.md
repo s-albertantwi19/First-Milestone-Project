@@ -12,7 +12,7 @@ The Seychelles is an island paradise archepelago located in the Indian Ocean
 
 ## Table of Contents
 1. UX
-2. Design
+2. [Design](/First-Milestone-Project/readme.md#design)
 3. Deployment
 4. Features
 5. Testing
