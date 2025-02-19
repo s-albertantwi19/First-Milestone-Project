@@ -19,5 +19,7 @@ The Seychelles is an island paradise archepelago located in the Indian Ocean
 6. Technologies Used
 7. Credits and References
 
+## Design
 
+![image info](./assets/images/pallete.png)
 
