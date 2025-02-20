@@ -11,7 +11,7 @@ This project was designed to encapsulate a country which is very dear to me. Wit
 The Seychelles is an island paradise archepelago located in the Indian Ocean
 
 ## Table of Contents
-1. UX
+1. [UX](/#userexperience)
 2. [Design](/#design)
 3. Deployment
 4. Features
@@ -19,7 +19,7 @@ The Seychelles is an island paradise archepelago located in the Indian Ocean
 6. Technologies Used
 7. Credits and References
 
-# UX
+# User Experience UX
 
 # Design
 
