@@ -53,8 +53,12 @@ In order to host the website, I navigated to Github and selected my public repos
 - Branch: Select 'Main' and 'root' from the dropdown menus
 - Save
 
-The website is now successfully deployed on GitHub Pages
+The website is now successfully deployed on GitHub Pages once you revert to your repository (initially it will say queued)
 
+![image info](./assets/images/deployment-settings.png)
+![image info](./assets/images/deployment-pages.png)
+![image info](./assets/images/deployment-main.png)
+![image info](./assets/images/deployment-queued.png)
 
 
 # Features
