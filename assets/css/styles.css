@@ -45,6 +45,7 @@ section.wholepage{
 body{
     background-color:#2a9d8f;
     margin: 0;
+    
 }
 .page-text{
     margin: 0 auto;
@@ -82,6 +83,13 @@ footer{
     bottom: 0;
     right: 0;
 }
+
+.caption-text {
+    color:#e9c46a;
+    font-family: 'Baumans';
+    font-weight: bold;
+}
+
 @media screen and (max-width:400px) {
     .gallery-banner img {
         width:calc(100% / 3);
