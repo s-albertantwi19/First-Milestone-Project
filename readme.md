@@ -94,6 +94,20 @@ In order to test, I used different web browsers using [Browser Stack](https://ww
 
 ![image info](./assets/images/broswerstack-performance.png)
 
+### CSS Validation
+
+![image info](./assets/images/cssvalidation.png)
+### HTML Validation
+
+![image info](./assets/images/htmlvalidation.png)
+
+### Lighthouse Testing Mobile vs Web
+
+
+![image info](./assets/images/lighthousemobile%20(1).png)
+
+![image info](./assets/images/lighthouseweb.png
+
 # Technologies Used
 
 ## Languages
