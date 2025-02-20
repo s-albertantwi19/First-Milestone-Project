@@ -16,7 +16,7 @@ The Seychelles is an island paradise archepelago located in the Indian Ocean
 3. [Deployment](/#deployment)
 4. [Features](/#features)
 5. [Testing](/#testing)
-6. [Technologies Used] (/#technologiesused)
+6. [Technologies Used](/#technologiesused)
 7. [Credits and References](/#creditsandreferences)
 
 # User Experience UX
