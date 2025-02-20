@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Seychelles Information Page </title>
 </head>
-<body>
+<body style="background-image: url('assets/images/seychelles-world-map-1.jpg');">
     <div class="container">
     <nav class="navbar"> 
         <a href="index.html"> Home </a>
@@ -29,17 +29,17 @@
 
             <fieldset>
                 <legend>Your details</legend>
-                <div class="flex gap-20">
+                <div>
                     <div>
-                        <label for="name-field" class="block-label">Name</label>
+                        <label for="name-field" >Name</label>
                         <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
                     </div>
                     <div>
-                        <label for="email-field" class="block-label">Email</label>
+                        <label for="email-field">Email</label>
                         <input id="email-field" type="email" name="email" placeholder="Your email" required>
                     </div>
                     <div>
-                        <label for="age" class="block-label">Age</label>
+                        <label for="age" >Age</label>
                         <select id="age" name="age" required>
                             <option value="under-20">Under 20</option>
                             <option value="20s">20-29</option>
@@ -49,91 +49,49 @@
                             <option value="60+">60+</option>
                         </select>
                     </div>
-                </div>
-                
-        
+                </div>   
             </fieldset>
-    
-            
             <fieldset>
-                <legend>Our products</legend>
+                <legend>Assessing our page</legend>
                 <div>
-                    <label for="fav-coffee" class="block-label">What is your favourite coffee?</label>
-                    <input id="fav-coffee" list="coffees" name="fav-coffee" required>
-                    <datalist id="coffees">
-                        <option value="Latte">
-                        <option value="Americano">
-                        <option value="Cappuccino">
-                        <option value="Espresso">
-                        <option value="Flat-white">
-                    </datalist>
+                    <label for="fav-page" class="block-label">Which page peaked your interest for further exploration?</label>
+                    <select id="page-names">
+                        <option value="Home"> Home </option>
+                        <option value="History"> History </option>
+                        <option value="Places To See"> Places To See </option>
+                    </select>
                 </div>
     
-                <p>How many cups of coffee do you drink a day?</p>
+                <p>On a scale of 0-10, how likely are you going to explore the Seychelles?</p>
     
-                <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
-                <label for="0-2cups-radio">0 to 2 cups</label>
+                <input id="0-2radio" name="likelihood" value="0-2" type="radio" required>
+                <label for="0-2radio">0-2 (not likely)</label>
     
-                <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
-                <label for="3-5cups-radio">3 to 5 cups</label>
+                <input id="3-5-radio" name="likelihood" value="3-5" type="radio" required>
+                <label for="1-radio">3-5 (somewhat likely)</label>
+
+                <input id="6-8-radio" name="likelihood" value="6-8" type="radio" required>
+                <label for="6-8-radio">6-8 (very likely)</label>
+
+                <input id="9-10-radio" name="likelihood" value="9-10" type="radio" required>
+                <label for="9-10-radio">9-10 (I cannot wait!)</label>
     
-                <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" required>
-                <label for="6-8cups-radio">6 to 8 cups</label>
-    
-                <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio" required>
-                <label for="9plus-cups-radio">9 or more cups</label>
-    
-                <p>How often do you visit Coders Coffeehouse?</p>
-    
-                <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
-                <label for="once-a-week">Once a week</label>
-    
-                <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
-                <label for="twice-a-week">Twice a week</label>
-    
-                <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
-                <label for="once-a-fortnight">Once a fortnight</label>
-    
-                <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
-                <label for="not-often">Not often</label>
-    
-                <p>Which of our coders coffeehouse snacks do you enjoy?</p>
-                <div>
-                    <input type="checkbox" id="brownies-checkbox" name="brownies">
-                    <label for="brownies-checkbox">Brownies</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="cookies-checkbox" name="cookies">
-                    <label for="cookies-checkbox">Cookies</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="nachos-checkbox" name="nachos">
-                    <label for="nachos-checkbox">Nachos</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="croissants-checkbox" name="croissants">
-                    <label for="croissants-checkbox">Croissants</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="scones-checkbox" name="scones">
-                    <label for="scones-checkbox">Scones</label>
-                </div>	
             </fieldset>
     
             <fieldset>
                 <legend>Feedback</legend>
-                <label for="feedback" class="block-label">How can we improve your experience with us?</label>
+                <label for="feedback" >How can we further your knoweldge or aid your travels?</label>
                 <br>
-                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+                <textarea id="feedback" rows="5" cols="80" name="feedback"></textarea>
             </fieldset>
     
-            <input type="submit" class="block-label" value="Enter prize draw">
+            <input type="submit" value="Submit">
             <input type="reset" value="Reset Form">
     
         </form>
         
     </div>
-<footer> 
+<footer class="contact-footer"> 
     <span>For more information, contact us on:</span>
     <a href="www.facebook.com" target ="_blank" rel="noopener"> Facebook</a>
 </footer>
