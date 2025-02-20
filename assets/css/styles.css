@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baumans');
-#header_title{
+
+h1 {
     font-family: 'Baumans';
     font-size: 2rem;
     text-align: center;
@@ -30,7 +31,10 @@
     display: block;
     padding: 1rem;
     text-decoration: none;
-    font-size: 2.2rem;   
+    font-size: 1.6rem;   
+}
+.wholepage {
+    margin-left: 200px;
 }
 nav > a:hover{
     color:bisque;
@@ -58,12 +62,10 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
-    padding-left: 200px;
 }
 .gallery-banner{
     display:flex;
     flex-wrap: wrap;
-    margin-left: 200px;
 }
 .gallery-banner img {
     width: 100%;
@@ -88,30 +90,34 @@ footer{
     font-family: 'Baumans';
     font-weight: bold;
 }
-@media screen and (max-width:390px) {
-    .gallery-banner img {
-        width:calc(100% / 3);
-    }
-    .page-text {
-        width: 100%;
+
+.contact-form {
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 700px) {
+    .navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
     }
     .navbar a {
-      text-align: center;
-      float: none;
+        float: left;
+        font-size: 1.2rem;
     }
-    body {width:100%;}
-    .conatct-form .col-80, .row-5, input[type=submit] {
-        width:100%;
-        margin-top: 0;
-        padding-left: 0;
+    div.wholepage {
+        margin-left: 0;
     }
-    .page-text{
-        padding-left: 0px;
-        width: 100%;
+    .gallery-banner {
+        margin-left: 0;
     }
-    .wholepage{
-        padding-left: 0%;
-        width:100%;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar a {
+        float: left;
+        font-size: 1rem;
     }
 }
 
@@ -139,16 +145,4 @@ footer{
         padding-left: 0;
     }
 
-}
-@media screen and (max-width: 700px) {
-    .navbar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .navbar a {float: left;}
-    div.wholepage {margin-left: 0;}
-    .gallery-banner {
-        margin-left: 0;
-    }
 }

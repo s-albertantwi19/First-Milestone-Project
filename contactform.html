@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Seychelles Information Page </title>
 </head>
-<body style="background-image: url('assets/images/seychelles-world-map-1.jpg');">
+<body>
     <div class="container">
     <nav class="navbar"> 
         <a href="index.html"> Home </a>
@@ -21,7 +21,6 @@
 <div class="wholepage">
     <div id="header_title">
         <h1> Nou Kapab Kit Kontak! </h1>
-        <h6> (We Can Stay In Touch!) </h6>
     </div>
     <div class="page-text contact-form">
         <form action="https://formdump.codeinstitute.net" method="POST">
@@ -37,51 +36,7 @@
                         <label for="email-field">Email</label>
                         <input id="email-field" type="email" name="email" placeholder="Your email" required>
                     </div>
-                    <div>
-                        <label for="age" >Age</label>
-                        <select id="age" name="age" required>
-                            <option value="under-20">Under 20</option>
-                            <option value="20s">20-29</option>
-                            <option value="30s">30-39</option>
-                            <option value="40s">40-49</option>
-                            <option value="50s">50-59</option>
-                            <option value="60+">60+</option>
-                        </select>
-                    </div>
                 </div>   
-            </fieldset>
-            <fieldset>
-                <legend>Assessing our page</legend>
-                <div>
-                    <label for="fav-page" class="block-label">Which page peaked your interest for further exploration?</label>
-                    <select id="page-names">
-                        <option value="Home"> Home </option>
-                        <option value="History"> History </option>
-                        <option value="Places To See"> Places To See </option>
-                    </select>
-                </div>
-    
-                <p>On a scale of 0-10, how likely are you going to explore the Seychelles?</p>
-    
-                <input id="0-2radio" name="likelihood" value="0-2" type="radio" required>
-                <label for="0-2radio">0-2 (not likely)</label>
-    
-                <input id="3-5-radio" name="likelihood" value="3-5" type="radio" required>
-                <label for="1-radio">3-5 (somewhat likely)</label>
-
-                <input id="6-8-radio" name="likelihood" value="6-8" type="radio" required>
-                <label for="6-8-radio">6-8 (very likely)</label>
-
-                <input id="9-10-radio" name="likelihood" value="9-10" type="radio" required>
-                <label for="9-10-radio">9-10 (I cannot wait!)</label>
-    
-            </fieldset>
-    
-            <fieldset>
-                <legend>Feedback</legend>
-                <label for="feedback" >How can we further your knoweldge or aid your travels?</label>
-                <br>
-                <textarea class="col-80 row-5" id="feedback" rows="5" cols="80" name="feedback"></textarea>
             </fieldset>
     
             <input type="submit" value="Submit">
