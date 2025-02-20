@@ -77,6 +77,15 @@ For the webiste I opted for a sidebar navigation menu, which remains across each
 
 ![image info](./assets/images/responsive-smaller-screen.png)
 
+## IPhone SE View
+
+![image info](./assets/images/iphoneSE-responsive.png)
+
+## IPhone 12 Pro View
+
+![image info](./assets/images/iphone12pro-responsive.png)
+![image info](./assets/images/iphone12pro-responsive%20form.png)
+
 # Testing
 
 In order to test, I used different web browsers in using [Browser Stack](https://www.browserstack.com/)
@@ -98,5 +107,14 @@ Github and Github Desktop have been used to deploy and commit changes respective
 # Credits and References
 
 Throughout the development of the website I used the following references:
+
+- Code Institute example code from HTML and CSS Essentials
+- [GeeksForGeeks](https://www.geeksforgeeks.org/)
+- [W3Schools](W3Schools.com)
+- [How to make a responsive site for all devices](https://www.youtube.com/watch?v=ZYV6dYtz4HA) for responsive design on all devices
+
+
+# Author
+Samuel Albert-Antwi
 
 
