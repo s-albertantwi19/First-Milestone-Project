@@ -1,6 +1,6 @@
 # The Sunny Isles of The Seychelles
 
-Project 1 - Samuel Albert-Antwi
+[Project 1](https://s-albertantwi19.github.io/First-Milestone-Project/) - Samuel Albert-Antwi 
 
 ## The Sunny Isles of The Seychelles
 
@@ -87,5 +87,16 @@ In order to test, I used different web browsers in using [Browser Stack](https:/
 
 # Technologies Used
 
+## Languages
+
+HTML and CSS have been used in the development of the website
+
+## Technology
+
+Github and Github Desktop have been used to deploy and commit changes respectively
+
 # Credits and References
+
+Throughout the development of the website I used the following references:
+
 
