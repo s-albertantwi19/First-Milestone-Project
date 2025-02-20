@@ -88,7 +88,7 @@ For the webiste I opted for a sidebar navigation menu, which remains across each
 
 # Testing
 
-In order to test, I used different web browsers in using [Browser Stack](https://www.browserstack.com/)
+In order to test, I used different web browsers using [Browser Stack](https://www.browserstack.com/) to test the respsonsive features of the website across multiple platforms. 
 
 ### Broswer Stack Testing
 
