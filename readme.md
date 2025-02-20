@@ -44,6 +44,17 @@ I created a new Github repository and cloned the repository using Github Desktop
 
 Whilst coding in Visual Studio Code, I ensured to save my development at each interval and regularly commit to the respository with commit messages on Github Desktop - this was the preferred method of developing as my Github account had failures when linking to Visual Studio Code. Had this not been an issue, I would have utilised the terminal to make my git commit statements and git push commands.
 
+## Hosting
+
+In order to host the website, I navigated to Github and selected my public repository named 'First-Milestone-Project' and proceeded as below:
+
+- Settings > Pages
+- Source: Select 'Deploy from a branch' from the dropdown menu
+- Branch: Select 'Main' and 'root' from the dropdown menus
+- Save
+
+The website is now successfully deployed on GitHub Pages
+
 
 
 # Features
