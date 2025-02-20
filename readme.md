@@ -63,7 +63,27 @@ The website is now successfully deployed on GitHub Pages once you revert to your
 
 # Features
 
+The feautures for the webpage were chosen for easy accessibility and a simple user experience.
+
+## Navigation
+
+For the webiste I opted for a sidebar navigation menu, which remains across each page. In order to do so, the main page has a margin to allow space for this navbar. For smaller screens, the navbar goes to the top of the page
+
+## Full Screen (Desktop) View
+
+![image info](./assets/images/responsive-fullscreen.png)
+
+## Smaller Screen View
+
+![image info](./assets/images/responsive-smaller-screen.png)
+
 # Testing
+
+In order to test, I used different web browsers in using [Browser Stack](https://www.browserstack.com/)
+
+### Broswer Stack Testing
+
+![image info](./assets/images/broswerstack-performance.png)
 
 # Technologies Used
 
